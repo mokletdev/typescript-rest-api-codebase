@@ -1,0 +1,54 @@
+{
+  "name": "typescript-rest-api-codebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc -p . && node dist/index.js",
+    "dev": "nodemon index.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mokletdev/typescript-rest-api-codebase.git"
+  },
+  "keywords": [
+    "codebase",
+    "api",
+    "backend",
+    "nodejs",
+    "mokletdev"
+  ],
+  "author": "Hasimy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mokletdev/typescript-rest-api-codebase/issues"
+  },
+  "homepage": "https://github.com/mokletdev/typescript-rest-api-codebase#readme",
+  "dependencies": {
+    "confidence": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "generic-pool": "^3.8.2",
+    "joi": "^17.5.0",
+    "mongoose": "^6.2.4",
+    "restify": "^8.6.0",
+    "restify-router": "^0.6.2",
+    "validate.js": "^0.13.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/confidence": "^1.4.30",
+    "@types/cors": "^2.8.12",
+    "@types/dotenv": "^8.2.0",
+    "@types/joi": "^17.2.3",
+    "@types/mongoose": "^5.11.97",
+    "@types/redis": "^4.0.11",
+    "@types/restify": "^8.5.4",
+    "@types/validate.js": "^0.11.0",
+    "@types/winston": "^2.4.4",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.3"
+  }
+}
